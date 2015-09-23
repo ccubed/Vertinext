@@ -2,8 +2,9 @@
 <html>
     <head>
         <title>Vertinext</title>
-        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/89f2f44ba07ea3fff7e561c2142813b278c2d6c6/devicon.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     
@@ -12,17 +13,9 @@
     <!-- Navbar -->
     <nav>
         <div class="nav-wrapper z-depth-0">
-            <a href="#" class="brand-logo">Vertinext</a>
-            <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="https://github.com/ccubed/"><i class="material-icons">code</i></a></li>
-                <li><a href="portfolio"><i class="material-icons">assignment</i></a></li>
-                <li><a href="blog"><i class="material-icons">book</i></a></li>
-            </ul>
-            <ul class="side-nav" id="mobile-menu">
-                <li><a href="https://github.com/ccubed/"><i class="material-icons">code</i></a></li>
-                <li><a href="portfolio"><i class="material-icons">assignment</i></a></li>
-                <li><a href="blog"><i class="material-icons">book</i></a></li>
+            <a href="#" class="brand-logo center">Vertinext</a>
+            <ul id="rss" class="right">
+                <li><a href="https://github.com/ccubed.atom"><i class="material-icons">leak_add</i></a></li>
             </ul>
         </div>
     </nav>
@@ -32,22 +25,260 @@
                 <div class="col s12">
                     <ul class="collection z-depth-2">
                         <li class="collection-item avatar">
-                            <img src="https://avatars1.githubusercontent.com/u/67614" alt="Cooper Click" class="circle">
+                            <img src="images/me.jpg" alt="Cooper Click" class="circle">
                             <span class="title">Charles Click</span>
                             <p>I am a coder and web host in Knoxville, TN that uses github for side projects in various languages. Feel free to view my github repos, portfolio or blog.</p>
                         </li>
                     </ul>
-                    <br />
                     <ul class="collection with-header z-depth-1">
-                        <li class="collection-header"><h4>Navigation</h4></li>
-                        <li class="collection-item"><a href="https://github.com/ccubed">Github Profile</a></li>
-                        <li class="collection-item"><a href="portfolio">Portfolio</a></li>
-                        <li class="collection-item"><a href="blog">Blog</a></li>
+                        <li class="collection-header center"><h4>Website Portfolio</h4> <br/> All self hosted</li>
+                        <a href="http://www.vertinext.com" class="collection-item active">Vertinext</a>
+                        <a href="http://kingsmouth.vertinext.com" class="collection-item">Kingsmouth Website</a>
+                        <a href="http://bti.vertinext.com" class="collection-item">BTI Mush Website</a>
+                        <a href="http://safehaven.vertinext.com" class="collection-item">Safehaven Website</a>
+                    </ul>
+                    <ul class="collection with-header z-depth-1">
+                        <li class="collection-header center"><h4>Github Repositories</h4></li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">web</i>
+                            <span class="title">Vertinext</span>
+                            <p style="width:85%">Git repository for this website's source.</p> <br/>
+                            <div class="center">
+                                <i class="devicon-html5-plain-wordmark colored medium"></i>
+                                <i class="devicon-css3-plain-wordmark colored medium"></i>
+                            </div>
+                            <a href="https://github.com/ccubed/Vertinext" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">Mu2</span>
+                            <p style="width:85%">Systems built for Pennmush mushcode that pushes data into a database.</p> <br/>
+                            <div class="center">
+                                <i class="devicon-mysql-plain-wordmark colored medium"></i>
+                            </div>
+                            <a href="https://github.com/ccubed/Mu2" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">BTI</span>
+                            <p style="width:85%">Repository for all code relating to Bereman Training Institute, a mush.</p> <br/>
+                            <div class="center">
+                                <i class="devicon-mysql-plain-wordmark colored medium"></i>
+                            </div>
+                            <a href="https://github.com/ccubed/BTI" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">edit</i>
+                            <span class="title">language-mushcode</span>
+                            <p style="width:85%">Mushcode language definition for the Atom Editor.</p> <br/>
+                            <div class="center">
+                                <i class="devicon-atom-original colored medium"></i>
+                            </div>
+                            <a href="https://github.com/ccubed/language-mushcode" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">Requiem for Kingsmouth</span>
+                            <p style="width:85%">Large collaborative project to maintain a large amount of softcode for a mush called Requiem for Kingsmouth.</p> <br/>
+                            <div class="center">
+                                <i class="devicon-mysql-plain-wordmark colored medium"></i>
+                            </div>
+                            <a href="https://github.com/ccubed/RFK" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">Hestia</span>
+                            <p style="width:85%">Python CLI Mu client using Blessings.</p> <br/>
+                            <div class="center">
+                                <i class="devicon-python-plain-wordmark colored medium"></i>
+                            </div>
+                            <a href="https://github.com/ccubed/hestia" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">Kanrisha</span>
+                            <p style="width:85%">Media server meant to track files and serve over network.</p> <br/>
+                            <div class="center">
+                                <i class="devicon-python-plain-wordmark colored medium"></i>
+                                <i class="devicon-django-plain colored medium"></i>
+                            </div>
+                            <a href="https://github.com/ccubed/Kanrisha" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">Requiem for Kingsmouth Website</span>
+                            <p style="width:85%">Integrated a website into the Requiem for Kingsmouth game database to allow web based interactions.</p> <br/>
+                            <div class="center">
+                                <i class="devicon-html5-plain-wordmark colored medium"></i>
+                                <i class="devicon-css3-plain-wordmark colored medium"></i>
+                            </div>
+                            <a href="https://github.com/ccubed/RFKWeb" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">UGS</span>
+                            <p style="width:85%">Mushcode project to achieve a series of universal systems for character sheets, character generation and inventory.</p> <br/>
+                            <a href="https://github.com/ccubed/UGS" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">Chevon</span>
+                            <p style="width:85%">VB.NET Interface to the Voat.co API. Development stopped.</p> <br/>
+                            <a href="https://github.com/ccubed/Chevon" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">Reach</span>
+                            <p style="width:85%">Code for The Reach, a now closed Mush.</p> <br/>
+                            <a href="https://github.com/ccubed/Reach" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">SWFoteCustom</span>
+                            <p style="width:85%">Custom version of the SW Fote mud Codebase called Sagas.</p> <br/>
+                            <div class="center">
+                                <i class="devicon-c-plain colored medium"></i>
+                            </div>
+                            <a href="https://github.com/ccubed/SWFoteCustom" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">SWRCustom</span>
+                            <p style="width:85%">Custom version of the Star Wars Reality mud Codebase.</p> <br/>
+                            <div class="center">
+                                <i class="devicon-c-plain colored medium"></i>
+                            </div>
+                            <a href="https://github.com/ccubed/SWRCustom" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">War</span>
+                            <p style="width:85%">Mushcode system for tracking warring nations. Meant for a Romance of the Three Kingdoms mush I never built.</p> <br/>
+                            <a href="https://github.com/ccubed/War" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">Roguelike</span>
+                            <p style="width:85%">C++ Library for creating Roguelike games.</p> <br/>
+                            <div class="center">
+                                <i class="devicon-cplusplus-plain colored medium"></i>
+                            </div>
+                            <a href="https://github.com/ccubed/Roguelike" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">view_module</i>
+                            <span class="title">LOTJMushclientPlugins</span>
+                            <p style="width:85%">Collection of Lua plugins for Legends of the Jedi Mud.</p> <br/>
+                            <a href="https://github.com/ccubed/LOTJMushclientPlugins" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">edit</i>
+                            <span class="title">MIDE</span>
+                            <p style="width:85%">Mushcode Editor written in C++ with QT. Not finished.</p> <br/>
+                            <div class="center">
+                                <i class="devicon-cplusplus-plain colored medium"></i>
+                            </div>
+                            <a href="https://github.com/ccubed/MIDE" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">WS2Wrapper</span>
+                            <p style="width:85%">C++ Wrapper for WinSock2.</p> <br/>
+                            <div class="center">
+                                <i class="devicon-cplusplus-plain colored medium"></i>
+                            </div>
+                            <a href="https://github.com/ccubed/WS2Wrapper" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">web</i>
+                            <span class="title">MorningStar</span>
+                            <p style="width:85%">Simple login script to protect a calendar for Morning Star in Knoxville, TN.</p> <br/>
+                            <div class="center">
+                                <i class="devicon-php-plain colored medium"></i>
+                            </div>
+                            <a href="https://github.com/ccubed/MorningStar" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">IniWrapper</span>
+                            <p style="width:85%">C++ Wrapper for reading INI Files.</p> <br/>
+                            <div class="center">
+                                <i class="devicon-cplusplus-plain colored medium"></i>
+                            </div>
+                            <a href="https://github.com/ccubed/IniWrapper" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">MushBot</span>
+                            <p style="width:85%">C++ bot for logging into mushes and executing commands.<br/>Never started.</p> <br/>
+                            <div class="center">
+                                <i class="devicon-cplusplus-plain colored medium"></i>
+                            </div>
+                            <a href="https://github.com/ccubed/MushBot" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">Skins of Steel</span>
+                            <p style="width:85%">VB.NET Program to build a machine based on a rule set for the Exalted table top series presented on the forums.</p> <br/>
+                            <a href="https://github.com/ccubed/SkinsofSteel" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">BusinessDirectory</span>
+                            <p style="width:85%">Javascript business directory for Morgan County TN Website.</p> <br/>
+                            <div class="center">
+                                <i class="devicon-javascript-plain colored medium"></i>
+                            </div>
+                            <a href="https://github.com/ccubed/BusinessDirectory" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">FileComparison</span>
+                            <p style="width:85%">Python script to compare directories.</p> <br/>
+                            <div class="center">
+                                <i class="devicon-python-plain colored medium"></i>
+                            </div>
+                            <a href="https://github.com/ccubed/FileComparison" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">EmpireCity</span>
+                            <p style="width:85%">Old MushCode CG for New World of Darkness Mush that I wrote.</p> <br/>
+                            <a href="https://github.com/ccubed/EmpireCity" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
+                        <li class="collection-item avatar">
+                            <i class="material-icons circle">code</i>
+                            <span class="title">AutoExtracter</span>
+                            <p style="width:85%">Python script to auto-extract a directory of compressed files using 7zip command line.</p> <br/>
+                            <div class="center">
+                                <i class="devicon-python-plain colored medium"></i>
+                            </div>
+                            <a href="https://github.com/ccubed/EmpireCity" class="secondary-content"><img src="images/GithubMark.png"></img></a>
+                        </li>
                     </ul>
                     </div>
                 </div>
             </div>
         </div>
+        
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col s6">
+                        <h5 class="white-text">Made and Hosted by Cooper Click</h5>
+                        <p class="grey-text text-lighten-4">Using Materialize.CSS, Devicon and Google's Material Icons. Also a nudge to Github for being great.</p>
+                    </div>
+                    <div class="col s6">
+                        <div class="collection">
+                            <a href="http://materializecss.com" class="collection-item">Materialize.CSS</a>
+                            <a href="http://devicon.fr" class="collection-item">Devicon 2.0 Icons</a>
+                            <a href="https://design.google.com/" class="collection-item">Google Material Design Resources</a>
+                            <a href="https://github.com/" class="collection-item">Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
         
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
