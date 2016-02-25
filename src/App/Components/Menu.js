@@ -10,6 +10,7 @@ class Menu extends React.Component {
           <MenuItem route="app" text="Home" />
           <MenuItem route="gitrepos" text="Github Repos" />
           <MenuItem route="hosting" text="Hosting" />
+          <MenuItem route="blog" text="Blog" />
         </ul>
         </div>
       </nav>

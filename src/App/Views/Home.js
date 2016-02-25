@@ -18,7 +18,6 @@ class Home extends React.Component {
       </div>
       <div className="card-action red-text">
         <a href="https://docs.google.com/document/d/1ykS2_34-GQd0SbrjpG9NbBvq40L62qWxGJc43KAjOD8/edit?usp=sharing">View Resume</a>
-        <a href="https://docs.google.com/document/d/1t6RkVRZ6VeWQ5Bug9i6cWdKViiCW9oYN37UuU5jcolw/edit?usp=sharing">View References</a>
       </div>
       </div>
       </div>
