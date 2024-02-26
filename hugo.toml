@@ -1,0 +1,53 @@
+baseURL = 'https://www.vertinext.com'
+defaultContentLanguage = 'en-us'
+languageCode = 'en-us'
+title = 'Charles Click'
+theme = 'gokarna'
+enableRobotsTXT = true
+
+[menu]
+   [[menu.main]]
+      identifier = 'home'
+      url = '/'
+      pre = '<span data-feather="home"></span>'
+      post = ''
+      name = 'Home'
+      weight = 1
+   [[menu.main]]
+      identifier = 'projects'
+      url = '/pages/'
+      pre = '<span data-feather="folder"></span>'
+      post = ''
+      name = 'Projects'
+      weight = 2
+   [[menu.main]]
+      identifier = 'github'
+      url = 'https://www.github.com/ccubed'
+      weight = 3
+      pre = '<span data-feather="github"></span>'
+      name = 'Github'
+   [[menu.main]]
+      identifier = 'keybase'
+      url = 'https://keybase.io/cclick'
+      weight = 4
+      pre = '<span data-feather="key"></span>'
+      name = 'Keybase'
+   [[menu.main]]
+      identifier = 'resume'
+      url = 'https://drive.google.com/file/d/1xIWfZk8b3xa9ygUxurgAyUwHblPE_CrB/view?usp=sharing'
+      weight = 5
+      pre = '<span data-feather="briefcase"></span>'
+      name = 'Resume'
+    
+[params]
+   avatarURL = '/images/Avatar.jpg'
+   avatarSize = 'size-m'
+   description = 'Sometimes I ask the computer to do things'
+   footer = 'Charles Click @ vertinext.com'
+   socialIcons = [
+    {name = 'linkedin', url = 'https://www.linkedin.com/in/charles-click-b078a959/'},
+    {name = 'mastodon', url = 'https://mastodon.social/@RoryEjinn'},
+    {name = 'twitch', url = 'https://www.twitch.tv/teshiko'},
+    {name = 'email', url = 'ccubed.techno@gmail.com'}
+   ]
+   metaKeywords = ['vertinext', 'charles click', 'portfolio', 'cooper']
