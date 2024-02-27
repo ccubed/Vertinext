@@ -48,6 +48,6 @@ enableRobotsTXT = true
     {name = 'linkedin', url = 'https://www.linkedin.com/in/charles-click-b078a959/'},
     {name = 'mastodon', url = 'https://mastodon.social/@RoryEjinn'},
     {name = 'twitch', url = 'https://www.twitch.tv/teshiko'},
-    {name = 'email', url = 'ccubed.techno@gmail.com'}
+    {name = 'email', url = 'mailto:ccubed.techno@gmail.com'}
    ]
    metaKeywords = ['vertinext', 'charles click', 'portfolio', 'cooper']

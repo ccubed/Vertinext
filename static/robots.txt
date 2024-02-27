@@ -4,4 +4,4 @@ Allow: index.html
 
 User-agent: *
 Disallow: *
-Sitemap: http://www.vertinext.com/Sitemap
+Sitemap: http://www.vertinext.com/sitemap.xml
