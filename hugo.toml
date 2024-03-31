@@ -34,7 +34,7 @@ enableRobotsTXT = true
       name = 'Keybase'
    [[menu.main]]
       identifier = 'Gitea'
-      url = 'https://git.vertinext.com/roryejinn
+      url = 'https://git.vertinext.com/roryejinn'
       weight = 4
       pre = '<span data-feather="git-commit"></span>'
       name = 'Gitea'
