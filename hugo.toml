@@ -33,6 +33,12 @@ enableRobotsTXT = true
       pre = '<span data-feather="key"></span>'
       name = 'Keybase'
    [[menu.main]]
+      identifier = 'Gitea'
+      url = 'https://git.vertinext.com/roryejinn
+      weight = 4
+      pre = '<span data-feather="git-commit"></span>'
+      name = 'Gitea'
+   [[menu.main]]
       identifier = 'resume'
       url = 'https://drive.google.com/file/d/1xIWfZk8b3xa9ygUxurgAyUwHblPE_CrB/view?usp=sharing'
       weight = 5
@@ -46,7 +52,7 @@ enableRobotsTXT = true
    footer = 'Charles Click @ vertinext.com'
    socialIcons = [
     {name = 'linkedin', url = 'https://www.linkedin.com/in/charles-click-b078a959/'},
-    {name = 'mastodon', url = 'https://mastodon.social/@RoryEjinn'},
+    {name = 'mastodon', url = 'https://blog.vertinext.com/@RoryEjinn'},
     {name = 'twitch', url = 'https://www.twitch.tv/teshiko'},
     {name = 'email', url = 'mailto:ccubed.techno@gmail.com'}
    ]
