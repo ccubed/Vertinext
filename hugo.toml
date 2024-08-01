@@ -40,7 +40,7 @@ enableRobotsTXT = true
       name = 'Gitea'
    [[menu.main]]
       identifier = 'resume'
-      url = 'https://drive.google.com/file/d/1xIWfZk8b3xa9ygUxurgAyUwHblPE_CrB/view?usp=sharing'
+      url = 'https://docs.google.com/document/d/1MTTfAx80EzWvtgmxFADdMrCS9R72ZwZPTLuBAaqtGNo/edit?usp=sharing'
       weight = 5
       pre = '<span data-feather="briefcase"></span>'
       name = 'Resume'
@@ -54,6 +54,6 @@ enableRobotsTXT = true
     {name = 'linkedin', url = 'https://www.linkedin.com/in/charles-click-b078a959/'},
     {name = 'mastodon', url = 'https://blog.vertinext.com/@RoryEjinn'},
     {name = 'twitch', url = 'https://www.twitch.tv/teshiko'},
-    {name = 'email', url = 'mailto:ccubed.techno@gmail.com'}
+    {name = 'email', url = 'mailto:click.charles.c@gmail.com'}
    ]
    metaKeywords = ['vertinext', 'charles click', 'portfolio', 'cooper']
